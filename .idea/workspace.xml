@@ -6,11 +6,20 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4eaae1e5-ed42-4b7e-aec3-a6dcefc1c8eb" name="Default" comment="It took three original keys.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="4eaae1e5-ed42-4b7e-aec3-a6dcefc1c8eb" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/scripts/5-CDK.bat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Model/scripts/5-CDK.bat" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TermPaperAttempt3.jar" afterPath="$PROJECT_DIR$/TermPaperAttempt3.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$GlobalListener.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$GlobalListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$LocalListener.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$LocalListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$filter.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$filter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/Model.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/Model.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/ButtonClass.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/ButtonClass.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/Data.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/Data.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/View.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/company/Controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Model/Model.java" afterPath="$PROJECT_DIR$/src/com/company/Model/Model.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/View/ButtonClass.java" afterPath="$PROJECT_DIR$/src/com/company/View/ButtonClass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/View/Data.java" afterPath="$PROJECT_DIR$/src/com/company/View/Data.java" />
@@ -27,12 +36,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="695">
-              <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+            <state relative-caret-position="323">
+              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
+                <element signature="method#View#0;class#View#0" expanded="false" />
                 <element signature="method#settings#0;class#View#0" expanded="false" />
                 <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
                 <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -57,35 +67,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModPanelClass.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/ModPanelClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Data.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/Data.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="78" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ButtonClass.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ButtonClass.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/ButtonClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+            <state relative-caret-position="167">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#ButtonClass#0;class#ButtonClass#0" expanded="false" />
                 <element signature="method#ButtonClass#1;class#ButtonClass#0" expanded="false" />
                 <element signature="method#settings#0;class#ButtonClass#0" expanded="false" />
                 <element signature="method#setChangedBounds#0;class#ButtonClass#0" expanded="false" />
@@ -122,10 +111,10 @@
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/DevPanelClass.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/ModPanelClass.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/scripts/viruses/7-EXEMOD.bat" />
         <option value="$PROJECT_DIR$/src/com/company/View/Data.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Model.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/View.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/ButtonClass.java" />
       </list>
@@ -133,7 +122,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="width" value="1612" />
+    <option name="width" value="1611" />
     <option name="height" value="867" />
   </component>
   <component name="ProjectView">
@@ -151,6 +140,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,32 +247,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TermPaperAttempt3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TermPaperAttempt3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -290,7 +254,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -550,27 +513,36 @@
       <option name="presentableId" value="Default" />
       <updated>1494487524001</updated>
     </task>
+    <task id="LOCAL-00001" summary="It took three original keys.">
+      <created>1495872550140</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1495872550140</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1612" height="867" extended-state="0" />
+    <frame x="-7" y="0" width="1611" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25062656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2507837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -594,7 +566,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="17" />
+      <option name="time" value="19" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -605,9 +577,76 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+          <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
+            <element signature="method#settings#0;class#View#0" expanded="false" />
+            <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
+            <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
+            <element signature="method#toModSetsPanelVisible#0;class#View#0" expanded="false" />
+            <element signature="method#toModSetsPanelInvisible#0;class#View#0" expanded="false" />
+            <element signature="method#toInfoVisible#0;class#View#0" expanded="false" />
+            <element signature="method#toInfoInvisible#0;class#View#0" expanded="false" />
+            <element signature="method#setAreaText#0;class#View#0" expanded="false" />
+            <element signature="method#isPressed#0;class#View#0" expanded="false" />
+            <element signature="method#isReplaced#0;class#View#0" expanded="false" />
+            <element signature="method#isIAreaVisible#0;class#View#0" expanded="false" />
+            <element signature="method#isModPanelVisible#0;class#View#0" expanded="false" />
+            <element signature="method#toSetAllKeysClosed#0;class#View#0" expanded="false" />
+            <element signature="method#setPressed#0;class#View#0" expanded="false" />
+            <element signature="method#setReplaced#0;class#View#0" expanded="false" />
+            <element signature="method#getX#0;class#View#0" expanded="false" />
+            <element signature="method#setX#0;class#View#0" expanded="false" />
+            <element signature="method#getY#0;class#View#0" expanded="false" />
+            <element signature="method#setY#0;class#View#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ModPanelClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="78" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ButtonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="38" lean-forward="false" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ButtonClass#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#ButtonClass#1;class#ButtonClass#0" expanded="false" />
+            <element signature="method#settings#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setChangedBounds#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setChangedBoundsBack#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setPressed#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setOpened#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#isPressed#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#isOpened#0;class#ButtonClass#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -666,6 +705,7 @@
         <state relative-caret-position="1309">
           <caret line="211" column="5" lean-forward="false" selection-start-line="211" selection-start-column="5" selection-end-line="211" selection-end-column="5" />
           <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -724,6 +764,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -808,6 +849,7 @@
         <state relative-caret-position="170">
           <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
           <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -982,10 +1024,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ModPanelClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="71" column="37" lean-forward="false" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+          <folding>
+            <element signature="method#Model#0;class#Model#0" expanded="false" />
+            <element signature="method#getAttackKey#0;class#Model#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Controller/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="124" column="49" lean-forward="false" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
+        <state relative-caret-position="1156">
+          <caret line="187" column="12" lean-forward="false" selection-start-line="187" selection-start-column="12" selection-end-line="187" selection-end-column="12" />
           <folding>
             <element signature="method#Controller#0;class#Controller#0" expanded="false" />
             <element signature="method#toCheckReplace#0;class#Controller#0" expanded="false" />
@@ -1001,22 +1064,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Model.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="68">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ButtonClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="method#Model#0;class#Model#0" expanded="false" />
-            <element signature="method#getAttackKey#0;class#Model#0" expanded="false" />
+            <element signature="imports" expanded="true" />
+            <element signature="method#ButtonClass#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#ButtonClass#1;class#ButtonClass#0" expanded="false" />
+            <element signature="method#settings#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setChangedBounds#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setChangedBoundsBack#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setPressed#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#setOpened#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#isPressed#0;class#ButtonClass#0" expanded="false" />
+            <element signature="method#isOpened#0;class#ButtonClass#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="695">
-          <caret line="86" column="10" lean-forward="false" selection-start-line="86" selection-start-column="10" selection-end-line="86" selection-end-column="10" />
+        <state relative-caret-position="323">
+          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
+            <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaVisible#0;class#View#0" expanded="false" />
             <element signature="method#toIAreaInvisible#0;class#View#0" expanded="false" />
@@ -1036,42 +1116,6 @@
             <element signature="method#setX#0;class#View#0" expanded="false" />
             <element signature="method#getY#0;class#View#0" expanded="false" />
             <element signature="method#setY#0;class#View#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ModPanelClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="78" lean-forward="false" selection-start-line="27" selection-start-column="78" selection-end-line="27" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ButtonClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="21" column="76" lean-forward="false" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#ButtonClass#1;class#ButtonClass#0" expanded="false" />
-            <element signature="method#settings#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#setChangedBounds#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#setChangedBoundsBack#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#setPressed#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#setOpened#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#isPressed#0;class#ButtonClass#0" expanded="false" />
-            <element signature="method#isOpened#0;class#ButtonClass#0" expanded="false" />
           </folding>
         </state>
       </provider>

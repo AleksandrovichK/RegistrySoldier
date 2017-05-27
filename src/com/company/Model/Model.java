@@ -11,7 +11,6 @@ public class Model {
     private String AttackShellKey;
     private String AttackLoadKey;
     private String AttackRunKey;
-    private String CrackDocsKey;
     private String GetAllPKey;
     private String ModifyCurrentExtKey;
 
@@ -35,7 +34,6 @@ public class Model {
         AttackShellKey = "cmd /c src\\com\\company\\Model\\scripts\\4-ARK.bat";
         AttackLoadKey = "cmd /c src\\com\\company\\Model\\scripts\\4-ARK.bat";
         AttackRunKey = "cmd /c src\\com\\company\\Model\\scripts\\4-ARK.bat";
-        CrackDocsKey = "cmd /c src\\com\\company\\Model\\scripts\\5-CDK.bat";
         GetAllPKey = "cmd /c src\\com\\company\\Model\\scripts\\6-GAPK.bat";
         ModifyCurrentExtKey = "cmd /c src\\com\\company\\Model\\scripts\\4-ARK.bat";
 
@@ -72,8 +70,6 @@ public class Model {
                 return AttackLoadKey;}
             case ("AttackRunKey"):{
                 return AttackRunKey;}
-            case ("CrackDocsKey"):{
-                return CrackDocsKey;}
             case ("GetAllPsKey"):{
                 return GetAllPKey;}
             case ("ModifyCurrentExtKey") :{

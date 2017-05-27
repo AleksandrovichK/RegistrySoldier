@@ -33,7 +33,6 @@ public class Controller{
         view.AttackShellKey.addMouseListener(listener);
         view.AttackLoadKey.addMouseListener(listener);
         view.AttackRunKey.addMouseListener(listener);
-        view.CrackDocsKey.addMouseListener(listener);
         view.GetAllPsKey.addMouseListener(listener);
         view.ModifyCurrentExtKey.addMouseListener(listener);
 
@@ -185,13 +184,6 @@ public class Controller{
             {
                 view.AttackRunKey.setPressed(!view.AttackRunKey.isPressed());
                 view.AttackRunKey.setChangedBounds();
-            }
-
-
-            if (requestA == view.CrackDocsKey)
-            {
-                view.CrackDocsKey.setPressed(!view.CrackDocsKey.isPressed());
-                view.CrackDocsKey.setChangedBounds();
             }
 
 
@@ -439,27 +431,6 @@ public class Controller{
                     }
                 }
 
-
-              if (requestA == view.CrackDocsKey)
-                if (view.CrackDocsKey.isPressed())
-                {
-                    view.CrackDocsKey.setChangedBoundsBack();
-                    view.CrackDocsKey.setPressed(!view.CrackDocsKey.isPressed());
-                    if (view.isModPanelVisible()) {view.toModSetsPanelInvisible(); view.ModifyCurrentExtKey.setOpened(false);}
-
-                    if (!view.CrackDocsKey.isOpened())
-                    {
-                        view.CrackDocsKey.setOpened(!view.CrackDocsKey.isOpened());
-                        if (!view.isIAreaVisible()) view.toIAreaVisible();
-                        virusChosenFrom = "CrackDocsKey";
-                    }
-                    else
-                    {
-                        view.CrackDocsKey.setOpened(!view.CrackDocsKey.isOpened());
-                        if (view.isIAreaVisible())  view.toIAreaInvisible();
-                        virusChosenFrom = "";
-                    }
-                }
 
             if (requestA == view.GetAllPsKey)
                 if (view.GetAllPsKey.isPressed())

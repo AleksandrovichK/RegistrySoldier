@@ -6,7 +6,6 @@ public class ButtonClass extends JPanel {
 
     private int coordW;
     private int coordH;
-    private JLabel name;
     private boolean isPressed;
     private boolean isOpened;
 
@@ -16,6 +15,7 @@ public class ButtonClass extends JPanel {
         this.coordH = coordH;
         this.coordW = coordW;
 
+        JLabel name;
 
         switch(nameOfButton){
             case("AttackNetUserScriptPathBKey"): {
@@ -28,6 +28,11 @@ public class ButtonClass extends JPanel {
                 break;
             }
 
+            case("AttackDebuggerKey"): {
+                name = new JLabel("To change WinRAR file handler");
+                break;
+            }
+
             case("AttackStartupFolder"): {
                 name = new JLabel("To push file to the Startup folder");
                 break;
@@ -37,7 +42,6 @@ public class ButtonClass extends JPanel {
                 name = new JLabel("To attack registry key \"User Init\"");
                 break;
             }
-
 
             case("AttackServicesKey"): {
                 name = new JLabel("To attack registry key \"Services\"");
@@ -71,11 +75,6 @@ public class ButtonClass extends JPanel {
 
             case("GetAllPsKey"): {
                 name  = new JLabel("To get passwords");
-                break;
-            }
-
-            case("CrackDocsKey"): {
-                name = new JLabel("To crack docs");
                 break;
             }
 

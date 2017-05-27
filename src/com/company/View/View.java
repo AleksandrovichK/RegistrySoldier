@@ -10,6 +10,7 @@ public class View extends JFrame {
     public ButtonClass AttackNetUserScriptPathBatKey;  // NEW KEY, AND IT IS NOT VISIBLE IN AUTORUNS
     public ButtonClass AttackInstalledComponentsKey;
     public ButtonClass AttackStartupFolder;            //NEW KEY
+    public ButtonClass AttackDebuggerKey;              //NEW KEY
     public ButtonClass AttackUserInitKey;
     public ButtonClass AttackServicesKey;
     public ButtonClass AttackRunOnceKey;
@@ -17,7 +18,6 @@ public class View extends JFrame {
     public ButtonClass AttackShellKey;
     public ButtonClass AttackLoadKey;
     public ButtonClass AttackRunKey;
-    public ButtonClass CrackDocsKey;
     public ButtonClass GetAllPsKey;
     public ButtonClass ModifyCurrentExtKey;
 
@@ -50,6 +50,7 @@ public class View extends JFrame {
         AttackNetUserScriptPathBatKey = new ButtonClass ("AttackNetUserScriptPathBKey",Data.ANetUserBounds.getLeft(), Data.ANetUserBounds.getTop());
         AttackInstalledComponentsKey = new ButtonClass ("AttackInstalledComponentsKey",Data.AInstKeyBounds.getLeft(), Data.AInstKeyBounds.getTop());
         AttackStartupFolder = new ButtonClass          ("AttackStartupFolder",         Data.AStartupBounds.getLeft(), Data.AStartupBounds.getTop());
+        AttackDebuggerKey = new ButtonClass            ("AttackDebuggerKey",           Data.ADebuggeBounds.getLeft(), Data.ADebuggeBounds.getTop());
         AttackUserInitKey = new ButtonClass            ("AttackUserInitKey",           Data.AUserKeyBounds.getLeft(), Data.AUserKeyBounds.getTop());
         AttackServicesKey = new ButtonClass            ("AttackServicesKey",           Data.AServKeyBounds.getLeft(), Data.AServKeyBounds.getTop());
         AttackRunOnceKey = new ButtonClass             ("AttackRunOnceKey",            Data.ARunOKeyBounds.getLeft(), Data.ARunOKeyBounds.getTop());
@@ -58,12 +59,12 @@ public class View extends JFrame {
         AttackLoadKey = new ButtonClass                ("AttackLoadKey",               Data.ALoadKeyBounds.getLeft(), Data.ALoadKeyBounds.getTop());
         AttackRunKey = new ButtonClass                 ("AttackRunKey",                Data.ARunKeyBounds. getLeft(), Data.ARunKeyBounds.getTop());
         GetAllPsKey = new ButtonClass                  ("GetAllPsKey",                 Data.GPassKeyBounds.getLeft(), Data.GPassKeyBounds.getTop());
-        CrackDocsKey = new ButtonClass                 ("CrackDocsKey",                Data.CDocsKeyBounds.getLeft(), Data.CDocsKeyBounds.getTop());
         ModifyCurrentExtKey = new ButtonClass          ("ModifyCurrentExtKey",         Data.ModifKeyBounds.getLeft(), Data.ModifKeyBounds.getTop());
 
         this.add(AttackNetUserScriptPathBatKey).setBounds   (Data.ANetUserBounds.getLeft(),   Data.ANetUserBounds.getTop(),    Data.ANetUserBounds.getWidth(),    Data.ANetUserBounds.getHeight());
         this.add(AttackInstalledComponentsKey).setBounds    (Data.AInstKeyBounds.getLeft(),   Data.AInstKeyBounds.getTop(),    Data.AInstKeyBounds.getWidth(),    Data.AInstKeyBounds.getHeight());
         this.add(AttackStartupFolder).setBounds             (Data.AStartupBounds.getLeft(),   Data.AStartupBounds.getTop(),    Data.AStartupBounds.getWidth(),    Data.AStartupBounds.getHeight());
+        this.add(AttackDebuggerKey).setBounds               (Data.ADebuggeBounds.getLeft(),   Data.ADebuggeBounds.getTop(),    Data.ADebuggeBounds.getWidth(),    Data.ADebuggeBounds.getHeight());
         this.add(AttackUserInitKey).setBounds               (Data.AUserKeyBounds.getLeft(),   Data.AUserKeyBounds.getTop(),    Data.AUserKeyBounds.getWidth(),    Data.AUserKeyBounds.getHeight());
         this.add(AttackServicesKey).setBounds               (Data.AServKeyBounds.getLeft(),   Data.AServKeyBounds.getTop(),    Data.AServKeyBounds.getWidth(),    Data.AServKeyBounds.getHeight());
         this.add(AttackRunOnceKey).setBounds                (Data.ARunOKeyBounds.getLeft(),   Data.ARunOKeyBounds.getTop(),    Data.ARunOKeyBounds.getWidth(),    Data.ARunOKeyBounds.getHeight());
@@ -71,7 +72,6 @@ public class View extends JFrame {
         this.add(AttackShellKey).setBounds                  (Data.AShKeyBounds  .getLeft(),   Data.AShKeyBounds  .getTop(),    Data.AShKeyBounds.getWidth(),      Data.AShKeyBounds  .getHeight());
         this.add(AttackLoadKey).setBounds                   (Data.ALoadKeyBounds.getLeft(),   Data.ALoadKeyBounds.getTop(),    Data.ALoadKeyBounds.getWidth(),    Data.ALoadKeyBounds.getHeight());
         this.add(AttackRunKey).setBounds                    (Data.ARunKeyBounds .getLeft(),   Data.ARunKeyBounds .getTop(),    Data.ARunKeyBounds.getWidth(),     Data.ARunKeyBounds .getHeight());
-        this.add(CrackDocsKey).setBounds                    (Data.CDocsKeyBounds.getLeft(),   Data.CDocsKeyBounds.getTop(),    Data.CDocsKeyBounds.getWidth(),    Data.CDocsKeyBounds.getHeight());
         this.add(GetAllPsKey).setBounds                     (Data.GPassKeyBounds.getLeft(),   Data.GPassKeyBounds.getTop(),    Data.GPassKeyBounds.getWidth(),    Data.GPassKeyBounds.getHeight());
         this.add(ModifyCurrentExtKey).setBounds             (Data.ModifKeyBounds.getLeft(),   Data.ModifKeyBounds.getTop(),    Data.ModifKeyBounds.getWidth(),    Data.ModifKeyBounds.getHeight());
 
@@ -83,8 +83,6 @@ public class View extends JFrame {
 
         this.modpanel = new ModPanelClass();
         this.devInfoPanel = new DevPanelClass();
-
-        //this.repaint();
     }
     private void settings() throws IOException {
         this.setFont(Data.centralFontInKeys);
@@ -198,7 +196,6 @@ public class View extends JFrame {
     AttackShellKey.setOpened(false);
     AttackLoadKey.setOpened(false);
     AttackRunKey.setOpened(false);
-    CrackDocsKey.setOpened(false);
     GetAllPsKey.setOpened(false);
 
     modpanel.exeFiles.setOpened(false);
