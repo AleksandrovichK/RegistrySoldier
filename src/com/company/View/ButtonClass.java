@@ -18,8 +18,18 @@ public class ButtonClass extends JPanel {
 
 
         switch(nameOfButton){
+            case("AttackNetUserScriptPathBKey"): {
+                name = new JLabel("To make \"net user\" startup (no registry entry)");
+                break;
+            }
+
             case("AttackInstalledComponentsKey"): {
                 name = new JLabel("To attack registry key \"Installed components\"");
+                break;
+            }
+
+            case("AttackStartupFolder"): {
+                name = new JLabel("To push file to the Startup folder");
                 break;
             }
 
@@ -36,6 +46,11 @@ public class ButtonClass extends JPanel {
 
             case("AttackRunOnceKey"): {
                 name = new JLabel("To attack registry key \"RunOnce\"");
+                break;
+            }
+
+            case("AttackTaskmanKey"): {
+                name = new JLabel("To attack registry key \"Taskman\"");
                 break;
             }
 

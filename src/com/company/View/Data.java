@@ -13,16 +13,19 @@ public class Data {
 
 	public final static Font centralFontInKeys = new Font("Microsoft JhengHei Light", Font.PLAIN, 13);   //шрифт использующийся на кнопках
 
-	public final static CRectangle AInstKeyBounds =       new CRectangle(35,100, 290,20);  //расположение кнопки installed
-	public final static CRectangle AUserKeyBounds =       new CRectangle(35,130, 290,20);  //расположение кнопки userinit
-	public final static CRectangle AServKeyBounds =       new CRectangle(35,160, 290,20);  //расположение кнопки services
-	public final static CRectangle ARunOKeyBounds =       new CRectangle(35,190, 290,20);  //расположение кнопки runonce
-	public final static CRectangle AShKeyBounds   =       new CRectangle(35,220, 290,20);  //расположение кнопки shell
-	public final static CRectangle ALoadKeyBounds =       new CRectangle(35,250, 290,20);  //расположение кнопки load
+	public final static CRectangle ANetUserBounds =       new CRectangle(35,100, 290,20);  //расположение кнопки installed
+	public final static CRectangle AInstKeyBounds =       new CRectangle(35,120, 290,20);  //расположение кнопки installed
+	public final static CRectangle AStartupBounds =       new CRectangle(35,140, 290,20);  //расположение кнопки installed
+	public final static CRectangle AUserKeyBounds =       new CRectangle(35,160, 290,20);  //расположение кнопки userinit
+	public final static CRectangle AServKeyBounds =       new CRectangle(35,180, 290,20);  //расположение кнопки services
+	public final static CRectangle ARunOKeyBounds =       new CRectangle(35,200, 290,20);  //расположение кнопки runonce
+	public final static CRectangle ATaskmanBounds =       new CRectangle(35,220, 290,20);  //расположение кнопки shell
+	public final static CRectangle AShKeyBounds   =       new CRectangle(35,240, 290,20);  //расположение кнопки shell
+	public final static CRectangle ALoadKeyBounds =       new CRectangle(35,260, 290,20);  //расположение кнопки load
 	public final static CRectangle ARunKeyBounds  =       new CRectangle(35,280, 290,20);  //расположение кнопки run
-	public final static CRectangle GPassKeyBounds =       new CRectangle(35,310, 290,20);  //расположение кнопки get passwords
-	public final static CRectangle CDocsKeyBounds =       new CRectangle(35,340, 290,20);  //расположение кнопки crack docs
-	public final static CRectangle ModifKeyBounds =       new CRectangle(35,390, 290,20);  //расположение кнопки modify
+	public final static CRectangle GPassKeyBounds =       new CRectangle(35,300, 290,20);  //расположение кнопки get passwords
+	public final static CRectangle CDocsKeyBounds =       new CRectangle(35,320, 290,20);  //расположение кнопки crack docs
+	public final static CRectangle ModifKeyBounds =       new CRectangle(35,360, 290,20);  //расположение кнопки modify
 
 	public final static CRectangle modPanelBounds  =      new CRectangle(370,100,290,200);  //расположение панели с модрасширениями
 
