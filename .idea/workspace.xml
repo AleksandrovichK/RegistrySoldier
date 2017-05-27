@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4eaae1e5-ed42-4b7e-aec3-a6dcefc1c8eb" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/scripts/5-CDK.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/company/Model/scripts/5-CDK.bat" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TermPaperAttempt3.jar" afterPath="$PROJECT_DIR$/TermPaperAttempt3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$GlobalListener.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$GlobalListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$LocalListener.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$LocalListener.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$filter.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller$filter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/Model.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/Model/Model.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/ButtonClass.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/ButtonClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/Data.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/Data.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/View.class" afterPath="$PROJECT_DIR$/out/production/TermPaperAttempt3/com/company/View/View.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Controller/Controller.java" afterPath="$PROJECT_DIR$/src/com/company/Controller/Controller.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/Model/Model.java" afterPath="$PROJECT_DIR$/src/com/company/Model/Model.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/View/ButtonClass.java" afterPath="$PROJECT_DIR$/src/com/company/View/ButtonClass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/View/Data.java" afterPath="$PROJECT_DIR$/src/com/company/View/Data.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/company/View/View.java" afterPath="$PROJECT_DIR$/src/com/company/View/View.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +23,8 @@
       <file leaf-file-name="View.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
               <folding>
                 <element signature="method#View#0;class#View#0" expanded="false" />
                 <element signature="method#settings#0;class#View#0" expanded="false" />
@@ -520,7 +504,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495872550140</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="It took one original keys, called &quot;Debugger&quot;">
+      <created>1495879130595</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1495879130595</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,8 +527,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -562,7 +553,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="It took three original keys." />
-    <option name="LAST_COMMIT_MESSAGE" value="It took three original keys." />
+    <MESSAGE value="It took one original keys, called &quot;Debugger&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="It took one original keys, called &quot;Debugger&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1093,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="187">
+          <caret line="15" column="40" lean-forward="true" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
             <element signature="method#View#0;class#View#0" expanded="false" />
             <element signature="method#settings#0;class#View#0" expanded="false" />
